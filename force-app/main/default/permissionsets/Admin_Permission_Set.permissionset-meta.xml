@@ -3,27 +3,7 @@
     <description>Grant admins access to custom objects e.g. book</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Book_Copy__c.Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Book__c.Author__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Book__c.Description__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Book__c.Edition__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Book__c.ISBN__c</field>
+        <field>Borrow_Log__c.Due_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
@@ -49,5 +29,9 @@
     <tabSettings>
         <tab>Book__c</tab>
         <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Borrow_Log__c</tab>
+        <visibility>Available</visibility>
     </tabSettings>
 </PermissionSet>

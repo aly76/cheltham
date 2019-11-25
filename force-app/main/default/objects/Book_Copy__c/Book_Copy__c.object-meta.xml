@@ -155,12 +155,15 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Book Copy</label>
     <nameField>
-        <displayFormat>copy-{0}</displayFormat>
+        <displayFormat>C{0000}</displayFormat>
         <label>Book Copy ID</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Book Copies</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Book__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

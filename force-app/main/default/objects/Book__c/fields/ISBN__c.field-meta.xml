@@ -4,10 +4,9 @@
     <description>International Standard Book Number</description>
     <externalId>false</externalId>
     <label>ISBN</label>
-    <precision>13</precision>
+    <length>13</length>
     <required>false</required>
-    <scale>0</scale>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
+    <type>Text</type>
     <unique>false</unique>
 </CustomField>

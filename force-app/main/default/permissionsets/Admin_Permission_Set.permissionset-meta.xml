@@ -26,6 +26,11 @@
         <field>Book__c.ISBN__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Borrow_Log__c.Returned__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Admin Permission Set</label>
     <objectPermissions>
